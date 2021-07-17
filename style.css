@@ -1,0 +1,17 @@
+﻿h1{
+    color:red 
+}
+textarea {
+ width:95%
+ 
+}
+div {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 30em;
+    height: 18em;
+    margin-top: -9em; 
+    margin-left: -15em; 
+
+}
