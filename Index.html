@@ -11,16 +11,16 @@
 <body>
     <h1>Add Articls</h1>
     <hr />
-    <div id="emp">
+    <div class="div" id="emp">
         <p id="Gone">There are Currently no articles </p>
         <button type="button" onclick="NewArt()">Click here to create new Article</button>
     </div>
 
-    <div id="NewArt" hidden>
+    <div class="div" id="NewArt" hidden>
         <p>The title of The Article: <input type="text" id="Name" name="Title" size="15"><br /></p>
         <p>Enter the Content Of the article: </p><br />
         <textarea  id="cont" rows="20"></textarea><br />
-        <button type="button">Publish</button>
+        <button onclick="NWArt()" type="button">Publish</button>
     </div>
 
 </body>
