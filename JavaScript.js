@@ -23,8 +23,8 @@ function NWArt() {
     if (title.length > 0) {
         myDiv.id = 'div_id';
 
-
-        myDiv.innerHTML = "<h2 style=" + "background-color:Grey;" + ">" + title + "</h2> <small style=" + "background-color:Grey;" + "> Published on: " + dateTime + "</small><br> <p style=" + "background-color:Grey;" + ">" + cont + "</p>   <button type=" + "button" + " onclick=" + "NewArt()"+">Click here to create new Article</button>";
+        
+        myDiv.innerHTML = "<h2 style=" + "background-color:lightgrey; padding: 20px; margin-top:0px; margin-bottom:1px;" + ">" + title + "</h2> <small style=" + "background-color:lightgrey; padding: 20px; margin-top:0px; margin-bottom:1px;" + "> Published on: " + dateTime + "</small><br> <p style=" + "background-color:lightgrey;" + " padding: 20px; margin-top:0px; margin-bottom:1px;>" + cont + "</p> <br>  <button type=" + "button" + " onclick=" + "NewArt()" +">Click here to create new Article</button>  <br> <hr><br><br><br> ";
 
 
         document.body.appendChild(myDiv);
